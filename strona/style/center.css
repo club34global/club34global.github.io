@@ -1,0 +1,61 @@
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.center {text-align: center;}
+
+#t1 {
+	
+	font-size: xx-large;	
+	color: red;
+}
+
+.bbutton {
+ 	text-decoration: none;
+ 	color: red;
+}
+
+.bbutton:hover {color: green}
+
+.hbutton{
+	text-agiln: center
+	text-decoration: none;
+	color: transparent;
+	font-size: x-large}
+
+.hbutton:hover {text-decoration: none; color: green}
+
+.sbutton {
+ 	text-decoration: none;
+ 	color: red;
+}
+
+.sbutton:hover {color: green}
+
+.hpbutton{
+	text-agiln: center
+	text-decoration: none;
+	color: transparent;}
+
+.hpbutton:hover {text-decoration: none; color: green}
+h1 {color: red; font-size: xx-large;}
+p {color: red}
+
+#pdoppler {width: 600px;}
+#pdoppler {text-align: left}
+
+
+.lcenter {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%)
+
+.lcenter {text-align: center;}
+
