@@ -2,3 +2,28 @@
 .dunlock {width: 1500px}
 
 #never:hover {color: red}
+
+.hdoppler {width: 600px;}
+.hdoppler {text-align: left; color: transparent;}
+.hdoppler:hover {color: red}
+
+.hdbutton{
+	text-decoration: none;}
+
+.hdbutton:hover {text-decoration: none}
+
+.bcenter {
+	height: 1300px;
+    margin: 0;
+    position: absolute;
+    top: 5%;
+    left: 450px;
+    
+}
+.bcenter {text-align: center;}
+
+h2, h3 {color: red}
+
+#bbdoppler {width: 1200px;}
+#bbdoppler {text-align: left}
+
