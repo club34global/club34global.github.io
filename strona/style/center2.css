@@ -27,3 +27,7 @@ h2, h3 {color: red}
 #bbdoppler {width: 1200px;}
 #bbdoppler {text-align: left}
 
+.gallery {width: 1000px; left: 250px; position: absolute; top: 50px}
+
+.gblock {width: 500px; height: 500px; border: solid black}
+
