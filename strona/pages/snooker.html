@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+		<meta property="og:title" content="Snooker.org">
+		<meta property="og:image" content="http://snooker.org/img/snookerorg.png">
+
+    <title>Snooker.org</title>
+
+    <meta name="description"        content="The place to go for the latest snooker results and rankings">
+    <meta name="keywords" content="snooker"/>
+    <meta name="Publisher" content="snooker.org"/>
+    <meta name="Author" content="Hermund Årdalen"/>
+
+    <meta name="google-site-verification" content="IprKTN0CwROZVWIEUe_muEFBmFffv4ghM6p29tkuJTs" />
+    <link rel="stylesheet" type="text/css" href="/css/presentation.css" />
+
+      <!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+<script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=B7kMa_tx_LqWOAubFuEbPV86HuyfIkNZuYZuDg23x8JkYAERCL2hPC586ZbHbDol" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="http://ff.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cDovL3d3dy5zbm9va2VyLm9yZy8"/><script type="text/javascript" async=true>
+(function() {
+  var host = 'www.snooker.org';
+  var element = document.createElement('script');
+  var firstScript = document.getElementsByTagName('script')[0];
+  var url = 'https://quantcast.mgr.consensu.org'
+    .concat('/choice/', 'QhvLnH_DqGvuS', '/', host, '/choice.js')
+  var uspTries = 0;
+  var uspTriesLimit = 3;
+  element.async = true;
+  element.type = 'text/javascript';
+  element.src = url;
+
+  firstScript.parentNode.insertBefore(element, firstScript);
+
+  function makeStub() {
+    var TCF_LOCATOR_NAME = '__tcfapiLocator';
+    var queue = [];
+    var win = window;
+    var cmpFrame;
+
+    function addFrame() {
+      var doc = win.document;
+      var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+      if (!otherCMP) {
+        if (doc.body) {
+          var iframe = doc.createElement('iframe');
+
+          iframe.style.cssText = 'display:none';
+          iframe.name = TCF_LOCATOR_NAME;
+          doc.body.appendChild(iframe);
+        } else {
+          setTimeout(addFrame, 5);
+        }
+      }
+      return !otherCMP;
+    }
+
+    function tcfAPIHandler() {
+      var gdprApplies;
+      var args = arguments;
+
+      if (!args.length) {
+        return queue;
+      } else if (args[0] === 'setGdprApplies') {
+        if (
+          args.length > 3 &&
+          args[2] === 2 &&
+          typeof args[3] === 'boolean'
+        ) {
+          gdprApplies = args[3];
+          if (typeof args[2] === 'function') {
+            args[2]('set', true);
+          }
+        }
+      } else if (args[0] === 'ping') {
+        var retr = {
+          gdprApplies: gdprApplies,
+          cmpLoaded: false,
+          cmpStatus: 'stub'
+        };
+
+        if (typeof args[2] === 'function') {
+          args[2](retr);
+        }
+      } else {
+        queue.push(args);
+      }
+    }
+
+    function postMessageEventHandler(event) {
+      var msgIsString = typeof event.data === 'string';
+      var json = {};
+
+      try {
+        if (msgIsString) {
+          json = JSON.parse(event.data);
+        } else {
+          json = event.data;
+        }
+      } catch (ignore) {}
+
+      var payload = json.__tcfapiCall;
+
+      if (payload) {
+        window.__tcfapi(
+          payload.command,
+          payload.version,
+          function(retValue, success) {
+            var returnMsg = {
+              __tcfapiReturn: {
+                returnValue: retValue,
+                success: success,
+                callId: payload.callId
+              }
+            };
+            if (msgIsString) {
+              returnMsg = JSON.stringify(returnMsg);
+            }
+            if (event && event.source && event.source.postMessage) {
+              event.source.postMessage(returnMsg, '*');
+            }
+          },
+          payload.parameter
+        );
+      }
+    }
+
+    while (win) {
+      try {
+        if (win.frames[TCF_LOCATOR_NAME]) {
+          cmpFrame = win;
+          break;
+        }
+      } catch (ignore) {}
+
+      if (win === window.top) {
+        break;
+      }
+      win = win.parent;
+    }
+    if (!cmpFrame) {
+      addFrame();
+      win.__tcfapi = tcfAPIHandler;
+      win.addEventListener('message', postMessageEventHandler, false);
+    }
+  };
+
+  makeStub();
+
+  var uspStubFunction = function() {
+    var arg = arguments;
+    if (typeof window.__uspapi !== uspStubFunction) {
+      setTimeout(function() {
+        if (typeof window.__uspapi !== 'undefined') {
+          window.__uspapi.apply(window.__uspapi, arg);
+        }
+      }, 500);
+    }
+  };
+
+  var checkIfUspIsReady = function() {
+    uspTries++;
+    if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+      console.warn('USP is not accessible');
+    } else {
+      clearInterval(uspInterval);
+    }
+  };
+
+  if (typeof window.__uspapi === 'undefined') {
+    window.__uspapi = uspStubFunction;
+    var uspInterval = setInterval(checkIfUspIsReady, 6000);
+  }
+})();
+</script>
+<!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+
+<script language="JavaScript">
+var s=document.getElementsByTagName('script')[0];
+var sc=document.createElement('script');
+sc.type='text/javascript';
+sc.async=true;
+sc.src='https://cdn.adfirst.media/hb/snooker.js?v' + new Date().getTime();
+s.parentNode.insertBefore(sc,s);
+</script>
+
+  </head>
+
+  <body id="home">
+
+    <div id="afm_stickySideAd"></div>
+
+    <header>
+
+      
+
+      <!-- /inc/2020/frontpageheader.html -->
+
+      <div id="masthead">
+        <a href="/"><img src="/img/design/snookerorg.png?unique" alt="snooker.org"/></a>
+      </div>
+
+
+    </header>
+
+    <main class="tripleColumn">
+
+            <!-- /inc/2020/mainmenu.html -->
+
+      <section id="menu">
+
+        <nav>
+
+          <div>
+            <script>
+              (function() {
+                var cx = '010522958965642869860:fuxsao_hsvq';
+                var gcse = document.createElement('script');
+                gcse.type = 'text/javascript';
+                gcse.async = true;
+                gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                    '//www.google.com/cse/cse.js?cx=' + cx;
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(gcse, s);
+              })();
+            </script>
+            <gcse:search></gcse:search>
+          </div>
+
+          <h3>Scores &amp; Results</h3>
+
+            <ul>
+              <li><a href="//live.snooker.org/">Live Scores</a></li>
+              <li><a href="//results.snooker.org/">Latest Results</a></li>
+              <li><a href="//finals.snooker.org/">Finals</a></li>
+              <li><a href="/trn/#Archives">Archives</a></li>
+            </ul>
+
+          <h3>Schedules</h3>
+
+            <ul>
+              <li><a href="/res/index.asp?template=2">Calendar</a></li>
+              <li><a href="//upcoming.snooker.org/">Upcoming Matches</a></li>
+              <li><a href="//orderofplay.snooker.org/">Order of Play (by session)</a></li>
+            </ul>
+
+          <h3>Ranking Lists</h3>
+
+            <ul>
+              <li><a href="//rankings.snooker.org/">Rankings</a></li>
+              <li><a href="//seedings.snooker.org/">Seedings</a></li>
+              <li><a href="/res/index.asp?template=33">Season Points (1-yr)</a></li>
+              <li><a href="/res/index.asp?template=43">World Grand Prix Rankings</a></li>
+              <li><a href="/res/index.asp?template=47">Players Ch.ship Rankings</a></li>
+              <li><a href="/res/index.asp?template=51">Tour Ch.ship Rankings</a></li>
+              <li><a href="/res/index.asp?template=48">Crucible Rankings</a></li>
+              <li><a href="/res/index.asp?template=52">Q Tour Rankings</a></li>
+              <li><a href="/res/index.asp?template=46&season=2020">Q School Order of Merit (2019)</a></li>
+              <li><a href="/rnk/history.asp">Ranking History</a></li>
+              <li><a href="/res/index.asp?template=25">Historic Seedings</a></li>
+              <li><a href="/rnk/#Archives">Archives</a></li>
+            </ul>
+
+          <h3>Provisional Ranking Lists</h3>
+
+            <ul>
+              <li><a href="//provrankings.snooker.org/">Prov Rankings</a></li>
+              <li><a href="//provseedings.snooker.org/">Prov Seedings</a></li>
+              <li><a href="/res/index.asp?template=34">Prov Season Points (1-yr)</a></li>
+							<!--
+              <li><a href="/res/index.asp?template=43">Prov World Grand Prix Rankings</a></li>
+              <li><a href="/res/index.asp?template=47">Prov Players Ch.ship Rankings</a></li>
+              <li><a href="/res/index.asp?template=51">Prov Tour Ch.ship Rankings</a></li>
+              <li><a href="/res/index.asp?template=48">Prov Crucible Rankings</a></li>
+							-->
+              <li><a href="/res/index.asp?template=42">Prov Season-End Rankings</a></li>
+							<!--
+              <li><a href="/res/index.asp?template=46">Prov Q School Order of Merit (2021)</a></li>
+              <li><a href="/res/index.asp?template=53">Prov Q Tour Rankings</a></li>
+							-->
+            </ul>
+
+          <h3>Players</h3>
+
+            <ul>
+              <li><a href="//maintourplayers.snooker.org/">Main Tour Players</a></li>
+              <li><a href="//players.snooker.org/">All Players</a></li>
+              <li><a href="//h2h.snooker.org/">Head to Head</a></li>
+              <li><a href="//matchstats.snooker.org/">Match Stats</a></li>
+              <li><a href="/plr/records.shtml">World Records</a></li>
+              <li><a href="//videos.snooker.org/">Videos</a></li>
+              <li><a href="/res/#twitter">Twitter Accounts</a></li>
+              <li><a href="/plr/#Archives">Archives</a></li>
+            </ul>
+
+          <h3>More</h3>
+
+            <ul>
+              <li><a href="/whatsnew/">What's New</a></li>
+              <li><a href="//api.snooker.org/">API</a></li>
+              <li><a href="/msc/how/how01.shtml">How to Play Snooker</a></li>
+              <li><a href="/msc/podcasts.shtml">Podcast Guide</a></li>
+              <li><a class="snoohoo" href="/snoohoo/">Snoohoo!</a></li>
+              <li><a href="/stories/">Stories</a></li>
+              <li><a href="/quick.shtml">Quick Index (site map)</a></li>
+            </ul>
+
+          <h3>External</h3>
+
+            <h4 class="lxa">Alexa</h4>
+
+              <ul>
+                <li><a target="_blank" href="//www.amazon.co.uk/Rob-Chilcott-Snooker-tracker/dp/B06XKVT2H9">Snooker tracker</a></li>
+              </ul>
+
+            <h4 class="drd">Android</h4>
+
+              <ul>
+                <li><a target="_blank" href="//play.google.com/store/apps/details?id=com.score.snooker">BlackPocket</a></li>
+                <li><a target="_blank" href="//play.google.com/store/apps/details?id=by.vadim.snooker.app">Lik</a></li>
+                <li><a target="_blank" href="//www.ksteinkohl.de/kondroid/#SnookerStats">SnookerStats</a></li>
+              </ul>
+
+            <h4 class="cal">Calendars</h4>
+
+              <ul>
+								<li><a target="_blank" href="http://calengoo.de/snooker/snooker.html">Calendars</a></li>
+                <li><a target="_blank" href="//www.geekynick.co.uk/snooker.ics">Shared Calendar (iCal)</a></li>
+              </ul>
+
+            <h4 class="fbk">Facebook</h4>
+
+              <ul>
+                <li><a target="_blank" href="//facebook.com/groups/1513857562065649/">Snooker.org group</a></li>
+                <li><a target="_blank" href="//facebook.com/snookerorg">Snooker.org page</a></li>
+              </ul>
+
+            <h4 class="ins">Instagram</h4>
+
+              <ul>
+                <li><a target="_blank" href="//instagram.com/snookerorg">snookerorg</a></li>
+              </ul>
+
+            <h4 class="ios">iOS</h4>
+
+              <ul>
+                <li><a target="_blank" href="//apps.apple.com/us/app/world-snooker-online/id1459165666">World Snooker Online</a></li>
+              </ul>
+
+            <h4 class="lt">Linktree</h4>
+
+              <ul>
+                <li><a target="_blank" href="//linktr.ee/snookerorg">snookerorg</a></li>
+              </ul>
+
+            <h4 class="tgm">Telegram</h4>
+
+              <ul>
+                <li><a target="_blank" href="//telegram.me/SnookerLive">SnookerLive</a></li>
+              </ul>
+
+            <h4 class="twr">Twitter</h4>
+
+              <ul>
+                <li><a target="_blank" href="//twitter.com/snookerorg">@snookerorg</a></li>
+                <li><a target="_blank" href="//twitter.com/snookerresults">@snookerresults</a></li>
+                <li><a target="_blank" href="//twitter.com/snookerscores">@snookerscores</a></li>
+              </ul>
+
+            <h4 class="ytb">YouTube</h4>
+
+              <ul>
+                <li><a target="_blank" href="//www.youtube.com/playlist?list=PLJQS3H-0q1ld1_M5MoF2AydBlx9V19PQK">Maximum Breaks</a></li>
+              </ul>
+
+            <h4>More ...</h4>
+
+              <ul>
+                <li><a target="_blank" href="//www.event-prediction.com/">Event Prediction</a></li>
+              </ul>
+
+        </nav>
+
+        <aside id="banners">
+
+          <div class="banner">
+             <a target="_blank" href="//www.stopglobalwarming.org/"><img src="/img/sgw_88_31.jpg" alt="StopGlobalWarming.org" /></a>
+          </div>
+
+          <div class="banner">
+             <a target="_blank" href="//thehungersite.greatergood.com/"><img src="/img/design/hungersite.gif" alt="Click to donate free food" /></a>
+          </div>
+
+        </aside>
+
+      </section>
+
+
+      <section id="highlights">
+
+        <h2><span>Highlights</span></h2>
+
+
+           <article>
+
+               <p class="dato">18 April 2022</p>
+
+               <h3><a href="/event/1128">World Championship</a></h3>
+
+                   <p class="ingress">Coverage of the Betfred World Championship <nobr>(16 Apr - 2 May)</nobr>:</p>
+
+                   <ul>
+                     <li><a href="/res/index.asp?template=21&event=1128">Live scores</a></li>
+                     <li><a href="/res/index.asp?template=22&event=1128">Results</a></li>
+                   </ul>
+                   <ul>
+                     <li><a href="/res/index.asp?template=24&event=1128">Upcoming matches</a></li>
+                     <li><a href="/res/index.asp?template=45&event=1128">Order of play</a></li>
+                   </ul>
+                   <ul>
+                     <li><a href="/event/1128">Draw</a></li>
+                     <li><a href="/res/bracket.asp?event=1128" target="_blank">Brackets</a></li>
+                     <li><a href="/res/index.asp?template=44&event=1128">Competitors</a></li>
+                   </ul>
+                   <ul>
+                     <li><a href="http://provisionalrankings.snooker.org/">Provisional rankings</a></li>
+                     <li><a href="http://provisionalseedings.snooker.org/">Provisional seedings</a></li>
+                     <li><a href="/res/index.asp?template=34">Provisional season points</a> (one-year)</li>
+                   </ul>
+                   <ul>
+                     <li><a href="/res/index.asp?template=42">Provisional end-of-season rankings</a></li>
+                   </ul>
+                   <ul>
+                     <li><a href="/trn/hof.asp?pEvent=World">Previous winners</a></li>
+                     <li><a href="/trn/wc.shtml">The World Championship Page</a></li>
+                   </ul>
+                   <ul>
+                     <li><a href="http://event-prediction.com/registration.asp?comp=2022" target="ep">Crucible Contest</a></li>
+                   </ul>
+
+           </article>
+
+
+           <article>
+
+               <p class="dato">13 April 2022</p>
+
+               <h3><a href="/msc/wcqual_2022.shtml">Crucible Qualifiers Contest</a></h3>
+
+                   <p class="ingress">Robert Stock (Wales) wins the <a href="/msc/wcqual_2022.shtml">Crucible Qualifiers Contest</a>.</p>
+
+           </article>
+
+
+           <article>
+
+               <p class="dato">3 April 2022</p>
+
+               <h3><a href="/event/1138">Tour Championship</a></h3>
+
+                   <p class="ingress">Neil Robertson (Australia) wins the Cazoo Tour Championship</p>
+
+                   <ul>
+                     <li><a href="/res/index.asp?template=22&event=1138">Results</a></li>
+                     <li><a href="/event/1138">Draw</a></li>
+                     <li><a href="/res/bracket.asp?event=1138" target="_blank">Brackets</a></li>
+                     <li><a href="/res/index.asp?template=44&event=1138">Competitors</a></li>
+                   </ul>
+                   <ul>
+                     <li><a href="/trn/hof.asp?pEvent=TC">Previous winners</a></li>
+                   </ul>
+
+           </article>
+
+
+           <article>
+
+               <p class="dato">3 April 2022</p>
+
+               <h3><a href="/rnk">Updated ranking lists</a></h3>
+
+                   <p class="ingress">Ranking lists after the Tour Championship:</p>
+
+                   <ul>
+                     <li><a href="http://rankings.snooker.org/">Rankings</a></li>
+                     <li><a href="http://seedings.snooker.org/">Seedings</a></li>
+                     <li><a href="/res/index.asp?template=33">Season points</a> (one-year)</li>
+                     <li><a href="/res/index.asp?template=48">Crucible rankings</a> (final)</li>
+                   </ul>
+
+           </article>
+
+           <article>
+
+               <p class="dato">3 April 2022</p>
+
+               <h3><a href="http://event-prediction.com/ranking.asp?comp=6117">Tour Championship Prediction Contest</a></h3>
+
+                   <p class="ingress">Bob Davies (Wales), Markus Thor (Sweden), Michael Siebert (Germany) & Simon White (France) wins the <a href="http://event-prediction.com/ranking.asp?comp=6117">Tour Championship Prediction Contest</a>.</p>
+
+           </article>
+
+
+           <article>
+
+               <p class="dato">3 April 2022</p>
+
+               <h3><a href="/event/1245">Winchester Women's Open</a></h3>
+
+                   <p class="ingress">Ng On Yee (Hong Kong) wins the Winchester Women's Open</p>
+
+                   <ul>
+                     <li><a href="/res/index.asp?template=22&event=1245">Results</a></li>
+                     <li><a href="/event/1245">Draw</a></li>
+                     <li><a href="/res/bracket.asp?event=1245" target="_blank">Brackets</a></li>
+                     <li><a href="/res/index.asp?template=44&event=1245">Competitors</a></li>
+                   </ul>
+
+           </article>
+
+
+           <article>
+
+               <p class="dato">20 March 2022</p>
+
+               <h3><a href="/event/867">Q Tour, Event 4</a></h3>
+
+                   <p class="ingress">Robbie McGuigan (Northern Ireland) wins Event 4 on the Q Tour</p>
+
+                   <ul>
+                     <li><a href="/res/index.asp?template=22&event=867">Results</a></li>
+                     <li><a href="/event/867">Draw</a></li>
+                     <li><a href="/res/bracket.asp?event=867" target="_blank">Brackets</a></li>
+                     <li><a href="/res/index.asp?template=44&event=867">Competitors</a></li>
+                     <li><a href="/res/index.asp?template=52">Q Tour rankings</a> (final)</li>
+                   </ul>
+
+           </article>
+
+
+           <article>
+
+               <p class="dato">7 January 2022</p>
+
+               <h3><a href="/event/1087">UK Seniors Championship</a></h3>
+
+                   <p class="ingress">Peter Lines (England) wins the WAYS Facilities Management UK Seniors Championship</p>
+
+                   <ul>
+                     <li><a href="/res/index.asp?template=22&event=1087">Results</a></li>
+                     <li><a href="/event/1087">Draw</a></li>
+                     <li><a href="/res/bracket.asp?event=1087" target="_blank">Brackets</a></li>
+                     <li><a href="/res/index.asp?template=44&event=1087">Competitors</a></li>
+                   </ul>
+
+
+           </article>
+
+
+
+					 <!-- TEMPLATES -->
+
+					 <!--
+           <article>
+					   <p class="dato">1 November 2021</p>
+
+						 <h3><a href="mailto:webmaster@snooker.org">We need your help</a></h3>
+
+             <p>Want to join our great team of volunteers?</p>
+
+           	 <p>Our volunteers update scores from ongoing events. They also add upcoming events and draws. All through a web-based interface.</p>
+           	 <p>Please <a href="mailto:webmaster@snooker.org">let us know</a> (webmaster@snooker.org) if you're interested.</p>
+
+           </article>
+
+
+           <article>
+
+             <p class="dato">10 March 2022</p>
+
+						 <h3><a href="//event-prediction.com/registration.asp?comp=6116" target="_blank">Gibraltar Open Prediction Contest</a></h3>
+
+							<p>Welcome to the <a href="//event-prediction.com/registration.asp?comp=6116" target="_blank">prediction contest</a> for the 2022 Gibraltar Open. Deadline is Thursday 24th March 9.30am CET.</p>
+           </article>
+
+
+           <article>
+
+             <p class="dato">29 March 2022</p>
+
+						 <h3><a href="/msc/wcqual_2022.shtml" target="_blank">Crucible Qualifiers Contest</a></h3>
+
+						  <p>Here's your chance to <a href="/msc/wcqual_2022.shtml">guess which players will qualify for the 2022 World Championship</a>!</p>
+							<p>Entries must be submitted before the qualifying tournament begins, at Mon 4 April 2021, 10:30am CEST.</p>
+							<p>Good luck!</p>
+           </article>
+
+					 -->
+
+
+      </section>
+
+      <section id="essentials">
+
+        <h2><span>Essentials</span></h2>
+
+          <article>
+
+            <h3><a href="/whatsnew/">What's New</a></h3>
+
+              <p class="ingress">A chronological list of new additions.</p>
+
+          </article>
+
+          <article>
+
+            <h3><a href="/res/index.asp">Score Centre</a></h3>
+
+              <p class="ingress">Results, rankings and stats for the current season.</p>
+
+          </article>
+
+          <article>
+
+            <h3><a href="//rankings.snooker.org/">Rankings</a></h3>
+
+              <p class="ingress">Two-year rolling rankings.</p>
+
+          </article>
+
+          <article>
+
+            <h3><a href="http://diary.snooker.org/">Calendar</a></h3>
+
+              <p class="ingress">List of events in the 2021/2022 season. (Main Tour, Challenge Tour, Women, Seniors).</p>
+
+          </article>
+
+
+					<!--
+          <article>
+
+            <h3><a href="/res/index.asp?template=2&season=2022">Calendar 2022/2023</a></h3>
+
+              <p class="ingress">List of events in the 2022/2023 season. (Main Tour, Challenge Tour, Women, Seniors).</p>
+
+          </article>
+					-->
+
+
+          <article>
+
+            <h3><a href="/plr/records.shtml">World Records</a></h3>
+
+              <p class="ingress">Find out who scored a tournament break of 151, and lots more.</p>
+
+          </article>
+
+          <article>
+
+            <h3><a href="//api.snooker.org/">Snooker.org API</a></h3>
+
+              <p class="ingress">The API interface to Snooker.org which can be used to make apps for Android, iOS and more. It is free for non-commercial use.</p>
+
+          </article>
+
+          <article>
+
+            <h3><a href="//www.snooker.org/trn/hof.asp">Hall of Fame</a></h3>
+
+              <p class="ingress">List of former champions in the major events.</p>
+
+          </article>
+
+          <article>
+
+            <h3><a href="/contest/">Crucible Contest</a></h3>
+
+              <p class="ingress">The annual competition where you can guess the winners of every match in the World Championship.</p>
+
+          </article>
+
+          <article>
+
+            <h3><a href="/trn/wc.shtml">The World Championship</a></h3>
+
+              <p class="ingress">A collection of all the world championship stuff on the site.</p>
+
+          </article>
+
+          <article>
+
+            <h3 class="sharing fbk"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg> Facebook</h3>
+
+              <p><a href="//facebook.com/snookerorg" target="_blank">You can follow us on Facebook</a></p>
+
+          </article>
+
+          <article>
+
+            <h3 class="sharing twr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"/></svg> Twitter</h3>
+
+              <p><a href="//twitter.com/snookerorg" target="_blank">You can follow us on Twitter</a></p>
+
+          </article>
+
+          <article>
+
+            <h3 class="sharing twr">Instagram</h3>
+
+              <p><a href="//instagram.com/snookerorg" target="_blank">You can follow us on Instagram</a></p>
+
+          </article>
+
+      </section>
+
+    </main>
+
+    <footer>
+
+          <!-- inc/2020/footer.html -->
+
+  		<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like width="280"></fb:like>
+
+	  	<br />
+		  <br />
+
+      <ul id="internals">
+        <li><a href="/about">About</a></li>
+        <li><a href="/contents">A &mdash; Z</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/credits">Credits</a></li>
+        <li><a href="/search">Search</a></li>
+      </ul>
+
+      <ul id="sharing">
+        <li><a class="fbk" target="_blank" href="//facebook.com/snookerorg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg></a></li>
+				<!-- Needs to be updated
+        <li><a class="rss" target="_blank" href="//feed43.com/3646500336171735.xml"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM112 416c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm157.533 0h-34.335c-6.011 0-11.051-4.636-11.442-10.634-5.214-80.05-69.243-143.92-149.123-149.123-5.997-.39-10.633-5.431-10.633-11.441v-34.335c0-6.535 5.468-11.777 11.994-11.425 110.546 5.974 198.997 94.536 204.964 204.964.352 6.526-4.89 11.994-11.425 11.994zm103.027 0h-34.334c-6.161 0-11.175-4.882-11.427-11.038-5.598-136.535-115.204-246.161-251.76-251.76C68.882 152.949 64 147.935 64 141.774V107.44c0-6.454 5.338-11.664 11.787-11.432 167.83 6.025 302.21 141.191 308.205 308.205.232 6.449-4.978 11.787-11.432 11.787z"/></svg></a></li>
+				-->
+        <li><a class="twr" target="_blank" href="//twitter.com/snookerorg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"/></svg></a></li>
+      </ul>
+
+
+<!-- Start of Woopra Code -->
+<script type="text/javascript">
+!function(){var a,b,c,d=window,e=document,f=arguments,g="script",h=["config","track","trackForm","trackClick","identify","visit","push","call"],i=function(){var a,b=this,c=function(a){b[a]=function(){return b._e.push([a].concat(Array.prototype.slice.call(arguments,0))),b}};for(b._e=[],a=0;a<h.length;a++)c(h[a])};for(d.__woo=d.__woo||{},a=0;a<f.length;a++)d.__woo[f[a]]=d[f[a]]=d[f[a]]||new i;b=e.createElement(g),b.async=1,b.src="//static.woopra.com/js/w.js",c=e.getElementsByTagName(g)[0],c.parentNode.insertBefore(b,c)}("woopra");
+
+// configure tracker
+woopra.config({
+ domain: "snooker.org",
+ download_tracking: true,
+ outgoing_tracking: true,
+ outgoing_ignore_subdomain: true
+});
+
+// track pageview
+woopra.track();
+</script>
+<!-- End of Woopra Code -->
+
+
+    <!-- Start: Tracking Facebook Like with Woopra -->
+    <script type="text/javascript">
+    if (typeof FB != 'undefined') {
+        FB.Event.subscribe('edge.create', function(url) {
+            woopraTracker.pushEvent({name: 'Facebook Like', url: url});
+        });
+    }
+    </script>
+    <!-- End: Tracking Facebook Like with Woopra -->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-53775-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-53775-1');
+</script>
+
+<!-- Necessary? -->
+<!-- Google Analytics Social Button Tracking -->
+<script type="text/javascript" src="https://app.tabpress.com/js/ga_social_tracking.js"></script>
+
+
+
+
+    </footer>
+
+  </body>
+
+</html>

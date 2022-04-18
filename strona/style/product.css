@@ -1,0 +1,52 @@
+#product {background-color: white;
+font-size: 10pt;
+margin: 0 auto;
+max-width: 790px;
+padding: 1em;
+border-top-width: 0px;
+border-top-style: solid;
+margin-top: 20px;
+margin-bottom: 35px;
+color: black;
+text-align: center;
+}
+
+.h10 {font-size: xx-large;
+font-weight: bold;
+color: black}
+
+.prod {  flex-basis: 33%;
+  padding-bottom: 1em;
+width: 260px;
+height: 300px;
+margin-top: 20px;
+//border-width: 1px;
+//border-style: solid;
+color: black;
+}
+
+.prod:hover {box-shadow: -1em 2em 1em -1em lightgray;}
+
+.t10 {
+display: inline-flex;
+}
+
+.pphoto {
+  width: 90%;
+  padding-bottom: 0px;
+  margin-top: 10px;
+}
+
+.ptitle{font-size: large; color:black;
+text-align: left;
+font-weight: bold;
+margin-left: 5%;
+margin-bottom: 0px;
+ }
+
+.pnumber{margin-top: 0px;
+margin-bottom: 0px;
+text-align: left;
+margin-left: 5%;
+color: #bfbfbf;
+}
