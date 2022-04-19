@@ -15,7 +15,7 @@ text-align: center;
 font-weight: bold;
 color: black}
 
-.prod {  flex-basis: 33%;
+.prod { 
   padding-bottom: 1em;
 width: 260px;
 height: 300px;
@@ -69,3 +69,4 @@ font-weight: bold;
 .chpn:hover{
 font-size: large;
 }
+

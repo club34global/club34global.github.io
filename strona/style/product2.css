@@ -1,0 +1,17 @@
+ol > li > ul {
+  display:none;
+}
+
+ol > li:hover > ul {
+  display:block;
+}
+
+ol, li {
+list-style-type:none;
+text-decoration:none;
+color: black;
+text-align:left;
+}
+
+a{text-decoration:none;
+color:black;}
