@@ -50,3 +50,22 @@ text-align: left;
 margin-left: 5%;
 color: #bfbfbf;
 }
+
+.chp {  flex-basis: 33%;
+width: 30px;
+height: 30px;
+//border-width: 1px;
+//border-style: solid;
+color: black;
+text-align: center;
+}
+
+.chpn {
+text-decoration: none;
+color: black;
+font-weight: bold;
+}
+
+.chpn:hover{
+font-size: large;
+}
