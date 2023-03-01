@@ -1,0 +1,53 @@
+.box1{
+text-align:left;
+width:1350px;
+height:300px;
+border-radius:20px;
+border:1px inset white;
+background-color:black;
+margin-bottom: 20px;
+box-shadow: inset 20px -20px 40px 2px red;
+display:inline-flex;
+}
+.box2{
+height:300px;width:100%;
+margin-top:100px;
+margin-bottom:30px;
+margin-left:30px;
+color:red;
+}
+#enter{ font-family: 'Cinzel', serif;
+font-size:110px;line-height:100px}
+
+.rimg{
+box-shadow: -100px 20px 40px 2px black;
+border-radius:20px;
+}
+
+.box1b{
+text-align:left;
+width:1350px;
+height:300px;
+border-radius:20px;
+border:1px inset white;
+background-color:black;
+margin-bottom: 20px;
+display:inline-flex;
+}
+
+.title{
+color:white;
+width:950px;
+font-size:50px;
+font-weight:bold;
+height:300px;
+border-bottom-left-radius:20px;
+border-top-left-radius:20px;
+box-shadow: inset 20px -20px 40px 2px red,  inset -20px 20px 40px 2px black;
+
+}
+
+.ptitle{
+margin-top: 200px;
+padding-left:30px;
+}
