@@ -1,0 +1,56 @@
+body {
+background-image: url(../zdj//theme343.png); 
+ background-repeat: round;
+    background-attachment: fixed;
+    background-position: bottom ;
+    
+}
+body{font-family: 'Montserrat', sans-serif;}
+
+#d1{
+margin-top: 5%;
+margin-bottom: 5%;
+width: 70%;
+background-color: white;
+padding-top: 1%;
+padding-bottom: 1%;}
+
+#p1{
+font-size: 200%;
+font-weight: bold;}
+
+.i1{
+width: 90%;
+}
+
+.d2{
+display: inline-flex;}
+
+.d3{
+width:90%;
+padding:2%;
+color:black;
+text-align:left;
+}
+
+.p2{
+font-size: 100%;
+font-weight: bold;
+margin:0px;
+margin-top:1%;
+}
+
+.p3{
+font-size:80%;
+color: #bfbfbf;
+margin:0px;
+margin-top:1%;}
+
+a{
+text-decoration:none;
+color:black;}
+
+footer{
+width:100%;
+display: inline-flex; 
+}

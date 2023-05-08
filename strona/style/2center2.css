@@ -1,0 +1,14 @@
+.pf1{
+	color: red;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: left;
+	width: 33%;
+}
+
+.pf2{
+	color: red;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: right;
+}
