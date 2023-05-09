@@ -10,13 +10,13 @@ body{font-family: 'Montserrat', sans-serif;}
 #d1{
 margin-top: 5%;
 margin-bottom: 5%;
-width: 70%;
+width: 85%;
 background-color: white;
 padding-top: 1%;
 padding-bottom: 1%;}
 
 #p1{
-font-size: 200%;
+font-size: 300%;
 font-weight: bold;}
 
 .i1{
@@ -24,7 +24,8 @@ width: 90%;
 }
 
 .d2{
-display: inline-flex;}
+display: inline-flex;
+width: 95%;}
 
 .d3{
 width:90%;
@@ -34,14 +35,14 @@ text-align:left;
 }
 
 .p2{
-font-size: 100%;
+font-size: 180%;
 font-weight: bold;
 margin:0px;
 margin-top:1%;
 }
 
 .p3{
-font-size:80%;
+font-size:150%;
 color: #bfbfbf;
 margin:0px;
 margin-top:1%;}

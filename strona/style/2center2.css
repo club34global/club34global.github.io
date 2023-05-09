@@ -12,3 +12,5 @@
 	font-size: 16px;
 	text-align: right;
 }
+
+.d3:hover {box-shadow: -2em 3em 2em -2em lightgray;}
