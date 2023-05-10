@@ -14,3 +14,44 @@
 }
 
 .d3:hover {box-shadow: -2em 3em 2em -2em lightgray;}
+
+.p3a{
+font-size:150%;
+color: #bfbfbf;
+margin:0px;
+margin-top:1%;
+text-align:left; margin-left:1%; margin-right:1%;
+}
+
+.d330{
+width:30%;
+padding:2%;
+color:black;
+text-align:left;
+}
+
+.d370{
+width:70%;
+padding:2%;
+color:black;
+text-align:left;
+}
+
+.d315{
+width:15%;
+padding:2%;
+color:black;
+text-align:left;
+}
+
+.d385{
+width:85%;
+padding:2%;
+color:black;
+text-align:left;
+}
+
+.p4{
+font-weight: bold;
+font-size: 100%;
+}
