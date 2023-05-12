@@ -1,0 +1,39 @@
+body {
+background-image: url(../zdj//theme343.png); 
+ background-repeat: round;
+    background-attachment: fixed;
+    background-position: top ;
+    
+}
+body{font-family: 'Montserrat', sans-serif;}
+
+#hd2{
+display: inline-flex;
+width: 70%;
+}
+
+#hi{width:70%;}
+
+.ha{
+	text-align: center;
+	width:33%;
+	color: red;
+	font-size: 250%;
+	font-weight: bold;
+}
+
+.ha:hover {color: green;}
+
+#hd1{margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)}
+
+footer{
+margin: 0;
+    position: absolute;
+    top: 90%;
+    
+    transform: translate(-50%, -50%)}
