@@ -37,3 +37,10 @@ margin: 0;
     top: 90%;
     
     transform: translate(-50%, -50%)}
+
+#hp1{width: 50%;
+text-align: left;
+color: red;
+}
+
+.ha3{color: red;}

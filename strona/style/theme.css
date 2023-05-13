@@ -1,9 +1,7 @@
 body {
 background-image: url(../zdj//theme343.png); 
- background-repeat: repeat-y;
+ background-repeat: round;
     background-attachment: fixed;
-    background-position: bottom ;
-    height: 100%;
-    width: 100%;
+    background-position: top ;
 }
 body{font-family: 'Montserrat', sans-serif;}
