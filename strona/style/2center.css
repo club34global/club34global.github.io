@@ -10,7 +10,8 @@ body{font-family: 'Montserrat', sans-serif;}
 #d1{
 margin-top: 5%;
 margin-bottom: 5%;
-width: 85%;
+width: 95%;
+max-width:1200px;
 background-color: white;
 padding-top: 1%;
 padding-bottom: 1%;}
@@ -21,18 +22,20 @@ font-weight: bold;
 margin-bottom: 0px}
 
 .i1{
-width: 90%;
+width: 100%;
 }
 
 .d2{
 display: inline-flex;
-width: 95%;}
+}
 
 .d3{
-width:90%;
+width:95%;
 padding:2%;
 color:black;
 text-align:left;
+max-width:500px;
+-webkit-text-size-adjust:auto;
 }
 
 .p2{
@@ -40,6 +43,7 @@ font-size: 180%;
 font-weight: bold;
 margin:0px;
 margin-top:1%;
+
 }
 
 .p3{
