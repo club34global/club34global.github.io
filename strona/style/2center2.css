@@ -15,6 +15,8 @@ position:center;
 width:95%
 }
 
+
+
 .pf1{
 	color: red;
 	font-weight: bold;
@@ -71,5 +73,33 @@ text-align:left;
 .p4{
 font-weight: bold;
 font-size: 100%;
+}
+
+.d2c{
+display: inline-flex;
+}
+
+.d3c{
+width:95%;
+padding:2%;
+color:black;
+text-align:left;
+max-width:500px;
+-webkit-text-size-adjust:auto;
+}
+
+@media (max-width:1000px) {
+#cet{font-size: 300%;}
+.d2c{display: block;}
+.d3c{width:85%; max-width:unset; font-size:150%;}
+.pf1{font-size:50%}
+.pf2{font-size:50%}
+.d315{display:none}
+.d385{font-size:300%}
+#p1{font-size:600%}
+.d330{display:none}
+.d370{font-size:200%}
+.p3a{font-size:250%}
+
 }
 
