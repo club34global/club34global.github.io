@@ -91,10 +91,11 @@ max-width:500px;
 @media (max-width:1000px) {
 #cet{font-size: 300%;}
 .d2c{display: block;}
+.d2{display: block;}
 .d3c{width:85%; max-width:unset; font-size:150%;}
 .pf1{font-size:50%}
 .pf2{font-size:50%}
-.d315{display:none}
+.d315{width:50%}
 .d385{font-size:300%}
 #p1{font-size:600%}
 .d330{display:none}
