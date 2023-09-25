@@ -1,0 +1,26 @@
+#lipsumcom_header {
+		height: 280px;
+}
+#lipsumcom_incontent {
+		height: 280px;
+}
+#lipsumcom_leaderboard_bottom {
+		height: 280px;
+}
+@media only screen and (min-device-width: 768px) {
+	#lipsumcom_header {
+		height: 250px;
+	}
+	#lipsumcom_incontent {
+		height: 90px;
+	}
+	#lipsumcom_leaderboard_bottom {
+		height: 250px;
+	}
+	#lipsumcom_left_siderail {
+		height: 600px;
+	}
+	#lipsumcom_right_siderail {
+		height: 600px;
+	}
+}
