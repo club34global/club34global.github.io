@@ -1,9 +1,29 @@
 body{
 background-color:black;
+color:white;
+}
+
+body {
+background-image: url(../zdj//themeb.png); 
+ background-repeat: round;
+    background-attachment: fixed;
+    background-position: top ;}
+
+body {
+	font-family: 'Montserrat', sans-serif;
 }
 
 #headings{
 width:30%;}
+
+#c1{
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+#flogo{
+	width:5%;
+}
 
 
 
@@ -13,4 +33,17 @@ width:30%;}
 
 @media only screen and (max-width: 1000px){
 #headings{width:80%}
+#c1{
+	margin-left: 3%;
+	margin-right: 3%;
+}
+body {
+background-image: url(../zdj//themes.png); 
+ background-repeat: round;
+    background-attachment: fixed;
+    background-position: top ;
+font-size: 300%;}
+#flogo{
+	width:25%;
+}
 }

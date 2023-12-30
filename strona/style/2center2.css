@@ -88,6 +88,10 @@ max-width:500px;
 -webkit-text-size-adjust:auto;
 }
 
+#artimg{
+	width:80%;
+}
+
 @media (max-width:1000px) {
 #cet{font-size: 300%;}
 .d2c{display: block;}

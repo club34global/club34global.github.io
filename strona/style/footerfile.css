@@ -1,0 +1,26 @@
+body{
+	display:inline-flex;
+}
+
+p{
+	margin: 0px;
+}
+
+#image{
+	width: 10%;
+}
+
+
+@media only screen and (max-width: 500px){
+#headings{width:80%}
+body{
+	font-size: 300%;
+}
+#c1{
+	margin-left: 3%;
+	margin-right: 3%;
+}
+#image{
+	width: 200%
+}
+}
