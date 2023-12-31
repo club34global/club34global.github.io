@@ -1,0 +1,62 @@
+#g1{
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: white;
+	color: black;
+	padding: 1%;
+	text-align: center;
+	position: center;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.g2{
+	width: 100%;
+}
+
+.g3{
+	width: 32%;
+	text-align: left;
+	margin-bottom:4%;
+	display: inline-block;
+}
+
+.g3:hover{
+	box-shadow: -2em 3em 2em -2em lightgray;
+}
+
+.zdj{
+	width: 90%;
+}
+
+p{
+	margin: 0px;
+	padding: 0px;
+	color: gray;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+	.g2{
+	display: inline;
+}
+.g3{width: 90%;}
+#g1{
+	margin-left: 2%;
+	margin-right: 2%;
+	background-color: white;
+	color: black;
+	padding: 1%;
+	text-align: center;
+	position: center;
+}
+
+}

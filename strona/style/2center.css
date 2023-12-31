@@ -1,5 +1,5 @@
 body {
-background-image: url(../zdj//theme343.png); 
+background-image: url(../zdj//themeb.png); 
  background-repeat: round;
     background-attachment: fixed;
     background-position: top ;
@@ -12,9 +12,10 @@ margin-top: 5%;
 margin-bottom: 5%;
 width: 95%;
 max-width:1200px;
-background-color: white;
 padding-top: 1%;
 padding-bottom: 1%;
+color: white;
+text-align: left;
 }
 
 #p1{
@@ -56,7 +57,7 @@ margin-top:1%;
 
 a{
 text-decoration:none;
-color:black;}
+color:white;}
 
 footer{
 width:100%;
