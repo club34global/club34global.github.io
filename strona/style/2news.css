@@ -3,3 +3,6 @@ a:hover{
 }
 #headings{
 width:30%;}
+
+@media only screen and (max-width: 1000px){
+#headings{width:80%}}
